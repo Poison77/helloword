@@ -1,0 +1,13 @@
+第一步:获取安装包
+sudo apt-get update
+sudo apt-get install git
+git clone https://github.com/torch/distro.git ~/troch --recursive
+cd ~/torch
+bash install-deps
+第二步:执行安装命令
+./instsll.sh
+第三步:添加路径到PATH变量
+source ~/.bashrc
+source ~/.zshrc
+第四步：检查安装成功
+th
